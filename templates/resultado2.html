@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado Ejercicio 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado</h1>
+        <p>Nombre más largo: {{ nombre }}</p>
+        <p>Cantidad de caracteres: {{ longitud }}</p>
+        <a href="/"><button>Volver al Menú</button></a>
+    </div>
+</body>
+</html>

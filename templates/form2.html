@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ingresar Nombres</h1>
+        <form method="POST">
+            <label for="nombre1">Nombre 1:</label><br>
+            <input type="text" id="nombre1" name="nombre1" required><br><br>
+
+            <label for="nombre2">Nombre 2:</label><br>
+            <input type="text" id="nombre2" name="nombre2" required><br><br>
+
+            <label for="nombre3">Nombre 3:</label><br>
+            <input type="text" id="nombre3" name="nombre3" required><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
